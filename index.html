@@ -25,7 +25,7 @@
 
                 <ul class="nav__lista">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">Inicio</a>
+                        <a href="#home" class="nav__link active-link">Inicio</a>
                     </li>
 
                     <li class="nav__item">
@@ -33,11 +33,15 @@
                     </li>
 
                     <li class="nav__item">
-                        <a href="#Projetos" class="nav__link">Projetos</a>
+                        <a href="#services" class="nav__link">Certificações</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Portfólio</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#Contato" class="nav__link">Contato</a>
+                        <a href="#contact" class="nav__link">Contato</a>
                     </li>
                 </ul>
 
@@ -149,7 +153,7 @@
         </section>
 
         <!-- Serviços -->
-        <section class="services section">
+        <section class="services section" id="services">
             <h2 class="section__title-2">
                 <span>Certificações.</span>
             </h2>
@@ -428,9 +432,32 @@
 
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">Sobre</a>
+                </li>
 
+                <li>
+                    <a href="#services" class="footer__link">Certificações</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Portfólio</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Todos os direitos reservados por <a href="">TrizCodes.</a>
+            </span>
+        </div>
     </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
 
     <script src="js/main.js"></script>
 </body>
